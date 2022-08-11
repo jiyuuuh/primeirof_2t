@@ -19,7 +19,7 @@ h1{
   position: absolute;
   background: orange;
   width: 200px;
-  height: 200px;
+  height: 45px;
   right: 705px;
   bottom: 200;
 }
@@ -31,4 +31,25 @@ h1{
   background: #B8551F;
   bottom: 0;
   left: 0;
+}
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: 0;
+}
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: orangered;
+  padding: 14px 16px;
+  text-align: center;
+  text-decoration: none;
+}
+li a:hover {
+  color: coral;
+  background-color: darkred;
 }
