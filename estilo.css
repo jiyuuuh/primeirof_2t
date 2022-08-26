@@ -6,6 +6,12 @@ body {
 
 h1{
   text-align: center;
+  color: #f1a517;
+}
+
+h2{
+  text-align: center;
+  color: #f1a517;
 }
 
 .menuprincipal {
@@ -47,7 +53,6 @@ li a:hover {
   top: 45px;
   width: 100%;
   color: #fff173;
-  background-color: #2a213d;
 }
 
 #rodape {
@@ -61,3 +66,41 @@ li a:hover {
   display: contents;
 }
 
+.boxImage {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  width: 1200px;
+  height: 450px;
+  background-color: #14113f;
+  top: 60px;
+  left: 0;
+  margin: 20px;
+  border-color: #4c277e;
+  border-width: 20px;
+  border-style: solid;
+  padding: 20px;
+  color: #ffd64e;
+}
+
+.conteudo2 {
+  position: absolute;
+  top: 45px;
+  width: 100%;
+  color: #fff173;
+}
+
+#image2 {
+  width: 600px;
+  left: 0px;
+}
+
+.Classificação{
+  display: list-item;
+  float: none;
+}
+
+.lista{
+  display: list-item;
+  float: none;
+}
